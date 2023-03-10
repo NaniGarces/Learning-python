@@ -44,9 +44,9 @@ for i in range(len(variables)):
     )
 
 # api_key = '5bc1e8bc228748f8b965a3c0d9679ccc'
-api_key = SOMENTHING
+AK = SOMENTHING
 
-headers = {'Ocp-Apim-Subscription-Key': '{key}'.format(key=api_key)}
+headers = {'Ocp-Apim-Subscription-Key': '{key}'.format(key=AK)}
 
 # responses_API = requests.post('https://apim-integraciones-prd-001.azure-api.net/mercados/cotizaciones',\
 #                                  headers=headers,json=cuerpo).json()
